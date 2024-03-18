@@ -8,7 +8,7 @@ e) Other Instructions : mfhi, mflo , nop
 ### Datapath
 ![架構圖](https://github.com/Sadieee/Pipelined-MIPS-Lite-CPU/assets/85558758/03a31c55-8f2b-4218-a5d1-c6a443f1386b)  
 ### Method
-1. ALU :按照期中project做修改
+1. ALU 
 2. alu_ctl :由ALUOp、Funct決定ALUOperation，當ALUOp為00表示強加；為01表強減，為10時由Funct決定。
 3. CtlUnit_pipelined : 依據輸入的指令代號(opcode)產生對應的控制訊號。
 5. IF/ID: 在IF stage和ID stage間的暫存器，存放階段處理之數據以供後續stage使用，並在clock翹起時寫入新資料。
