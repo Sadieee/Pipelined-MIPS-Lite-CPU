@@ -1,6 +1,6 @@
 # Pipelined-MIPS-Lite-CPU
 使用Verilog設計一個Pipelined-MIPS-Lite-CPU，並包含以下16個指令:  
-a) Integer Arithmetic: ad d, sub, and, or, sl l , slt , addiu  
+a) Integer Arithmetic: add, sub, and, or, sll , slt , addiu  
 b) Integer Memory Access: lw, sw  
 c) Integer Branch: beq, j , jal  
 d) Integer Multiply /Divide : multu  
